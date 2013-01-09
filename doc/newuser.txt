@@ -1,0 +1,5 @@
+[06:16:25] <relrod> phuzion: ./manage.py shell
+[06:16:31] <relrod> from playlist.models import *
+[06:16:36] <relrod> u = User.objects.get()
+[06:16:43] <relrod> UserProfile(user=u).save()
+[06:17:02] <relrod> that gets you to the next error
