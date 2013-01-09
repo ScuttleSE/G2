@@ -6,9 +6,9 @@ import threading
 import time
 import errno
 
-sys.path.append('/home/jonnty/Python/pydj/pydj/playlist')
-sys.path.append('/home/jonnty/Python/pydj/')
-sys.path.append('/home/jonnty/')
+sys.path.append('/home/phuzion/Code/pydj/playlist')
+sys.path.append('/home/phuzion/Code/pydj/')
+sys.path.append('/home/phuzion/')
 from pyftpdlib import ftpserver
 from upload import UploadedFile, UnsupportedFormatError, CorruptFileError
 

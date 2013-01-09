@@ -24,8 +24,9 @@ urlpatterns = patterns('',
 
 # Only for development
 #(r'^.*sphene/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.ROOT_PATH + '/static/sphene' }),
-(r'^forum/', include('forum.urls')),
-url(r'^admin/(.*)', admin.site.root, {}, "admin_site"),
+#(r'^forum/', include('forum.urls')),
+#url(r'^admin/(.*)', admin.site.root, {}, "admin_site"),
+
 (r'^$', 'pydj.playlist.views.playlist'),
 (r'^playlist(/(?P<lastid>\d+))?$', 'pydj.playlist.views.playlist', {}, "playlist"),
 (r'^splaylist$', 'pydj.playlist.views.splaylist'),

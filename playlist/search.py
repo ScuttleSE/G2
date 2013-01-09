@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from Plex import *
+from plex import *
 from django.db.models import Q
 from pydj.playlist.models import Song
 import StringIO
